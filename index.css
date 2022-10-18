@@ -1,0 +1,21 @@
+html{
+    block-size: 100%;
+    inline-size: 100%;
+}
+
+
+ /*responsive mobile design*/
+ @media (min-width: 480px) {
+
+
+ }
+
+/*responsive tablet design*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+
+}
+
+
