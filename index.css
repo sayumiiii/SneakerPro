@@ -1,6 +1,8 @@
+body{
+    width:fit-content;
+}
 html{
-    block-size: 100%;
-    inline-size: 100%;
+    width: fit-content;
 }
 h3, h2{
     font-size: 3em;
