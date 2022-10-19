@@ -40,6 +40,9 @@ a{
     width: 100%;
     height: 100%;
 }
+.card img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 p{
     font-size: 2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -106,15 +109,86 @@ p{
 
  /*responsive mobile design*/
  @media (min-width: 480px) {
-
-
+    h3, h2{
+        font-size: 1.5em;
+        padding-left: 25px;
+    }
+    p{
+        font-size: 0.8em;
+        padding-left: 25px;
+    }
+    .card img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    nav{
+        width: 100%;
+    }
+    /*details page*/
+    .detailsimg{
+        margin-top: 3.5em;
+    }
+    .price{
+        
+        padding-left: 10em;
+        font-size: 3em;
+    }
+    .article{
+        font-size: 2em;
+        padding-left: 10em;
+        width: 30em;
+        display: block;
+    }
+    .rating{
+        
+        padding-left: 20em;
+    }
+    #sizes{
+        padding-left: 200px;
+        display: block;
+        width: 100%;
+        padding-top: 40px;
+    }
+    #sizes .button{
+        margin: 4px 2px;
+        width: 8em;
+       
+      }
+    .qty{
+        width: 100%;
+    }
+    body{
+        width:fit-content;
+    }
+    html{
+        width: fit-content;
+    }
+    #cart{
+        width: 75%;
+        height: 2.6em;
+        font-size: 3em;
+    }
  }
 
 /*responsive tablet design*/
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
-
+    nav a{
+       font-size: 0.8em;
+    }
+    .card img {
+        width: 75%;
+        height: 75%;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    p{
+        font-size: 1.5em;
+    }
 
 }
 
